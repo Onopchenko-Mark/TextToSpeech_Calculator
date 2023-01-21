@@ -1,0 +1,18 @@
+#JSGF V1.0;
+
+grammar grammar;
+
+public <numbers> = ( zero | one | two | three | four | five | six | seven | eight | nine | ten
+                   | eleven | twelve | thirteen | fourteen | fifteen | sixteen | seventeen 
+                   | eighteen | nineteen | twenty | thirty | forty | fifty | sixty                   
+				   | seventy | eighty | ninety)+;
+		 		   
+public <magnitudes> = (hundred | thousand | million | billion)+;
+
+public <operators> =  (plus | minus | multiply | times | divided
+					   | over | point | pie | east | sign | coast
+			 		   | tangent | arc sign | arc coast | arc tangent
+			 		   | log | natural | open | closed | bracket | square root 
+			 		   | power | factorial | squared)+;
+			 		   
+public <commands> = (tutorial | start | calculate | erase | clear | read | stop)+;
